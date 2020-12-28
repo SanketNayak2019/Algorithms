@@ -21,7 +21,7 @@ void randomize(vector<int> &unorderedInts){
 }
 
 int main(){
-    ifstream unsortedData ("testinput.txt");
+    ifstream unsortedData ("../testinput.txt");
     vector<int> unsortedInts;
     
     //populate vector with input data
